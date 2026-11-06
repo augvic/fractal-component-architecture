@@ -1,15 +1,3 @@
-<div align="center">
-
-<img src="../icon/file.png" width="140" alt="FCA icon — a fractal hexagon of components nested at every scale" />
-
-# Fractal Component Architecture (FCA)
-
-Fractal components nested at every scale, composing the software architecture. This document describes a way of thinking about software architecture, and a way of translating that thinking directly into a project's file layout — in any language.
-
-</div>
-
----
-
 # 1. 🎯 Purpose
 
 The central claim is simple: **a software system is a tree of components**, and that tree should be visible, literally, in the directory structure. Not "the directories loosely reflect the architecture" — the directories *are* the architecture. Reading `ls -R` should be equivalent to reading a component diagram.
@@ -412,11 +400,3 @@ The vision above is the same regardless of language. What changes is which nativ
 - 🌍 **The vision doesn't change per language. Only the materialization does** — the same tree, expressed through whatever native construct each language already gives you for classes, modules, and packages.
 
 > **You should be able to look at the project tree, in any language, and see the software itself.** 🌳
-
----
-
-<div align="center">
-
-Fractal Component Architecture (FCA) © 2026 Augusto Viceli, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (see [LICENSE](../LICENSE)).
-
-</div>

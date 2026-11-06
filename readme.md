@@ -4,7 +4,7 @@
 
 # Fractal Component Architecture (FCA)
 
-**A software system is a tree of components — and that tree should be visible, literally, in the directory structure.**
+Fractal components nested at every scale, composing the software architecture. This repository documents a way of thinking about software architecture, and a way of translating that thinking directly into a project's file layout — in any language.
 
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue.svg)](license/LICENSE)
 
@@ -14,9 +14,7 @@
 
 ## What is FCA?
 
-FCA is a way of thinking about software architecture, and a way of translating that thinking directly into a project's file layout — in any language.
-
-The central claim is simple: the directories *are* the architecture. Reading `ls -R` should be equivalent to reading a component diagram. The name comes from the property that sets it apart from generic component-based design: the **same small rule set** (what a component is, how it relates to its children, when it becomes a folder, when a folder gets its own code) applies identically **at every depth**, from the whole program down to the smallest leaf. Zoom into any node and the same shape repeats.
+The central claim is simple: **a software system is a tree of components**, and that tree should be visible, literally, in the directory structure. The directories *are* the architecture. Reading `ls -R` should be equivalent to reading a component diagram. The name comes from the property that sets it apart from generic component-based design: the **same small rule set** (what a component is, how it relates to its children, when it becomes a folder, when a folder gets its own code) applies identically **at every depth**, from the whole program down to the smallest leaf. Zoom into any node and the same shape repeats.
 
 ```text
 Program

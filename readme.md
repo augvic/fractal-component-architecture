@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="icon/file.png" width="140" alt="FCA icon — a fractal hexagon of components nested at every scale" />
+<img src="icon.png" width="140" alt="FCA icon — a fractal hexagon of components nested at every scale" />
 
 # Fractal Component Architecture (FCA)
 
 Fractal components nested at every scale, composing the software architecture. This repository documents a way of thinking about software architecture, and a way of translating that thinking directly into a project's file layout — in any language.
 
-[![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue.svg)](license/LICENSE)
+[![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue.svg)](LICENSE)
 
 </div>
 
@@ -31,7 +31,7 @@ Structure is decided first; implementation fills the shape the tree already decl
 
 ## Start here
 
-1. **Read the main document:** [documentation/file.md](documentation/file.md) — the vision and the language-agnostic rules (tree, leaves vs. branches, naming, composition root and dependency injection, abstract dependencies, actions, data carriers, errors, long-running components, adapters, configuration, and a checklist).
+1. **Read the main document:** [fractal-component-architecture/readme.md](fractal-component-architecture/readme.md) — the vision and the language-agnostic rules (tree, leaves vs. branches, naming, composition root and dependency injection, abstract dependencies, actions, data carriers, errors, long-running components, adapters, configuration, and a checklist).
 2. **Then pick your language** below to see how each idea materializes in concrete file layout and idioms.
 
 ### Main document at a glance
@@ -50,15 +50,15 @@ Structure is decided first; implementation fills the shape the tree already decl
 
 | Language | Guide |
 | --- | --- |
-| C | [languages/c](languages/c/file.md) |
-| C++ | [languages/cpp](languages/cpp/file.md) |
-| C# | [languages/csharp](languages/csharp/file.md) |
-| Go | [languages/go](languages/go/file.md) |
-| Java | [languages/java](languages/java/file.md) |
-| JavaScript / TypeScript | [languages/javascript-typescript](languages/javascript-typescript/file.md) |
-| Python | [languages/python](languages/python/file.md) |
-| Ruby | [languages/ruby](languages/ruby/file.md) |
-| Rust | [languages/rust](languages/rust/file.md) |
+| C | [languages/c](fractal-component-architecture/languages/c/file.md) |
+| C++ | [languages/cpp](fractal-component-architecture/languages/cpp/file.md) |
+| C# | [languages/csharp](fractal-component-architecture/languages/csharp/file.md) |
+| Go | [languages/go](fractal-component-architecture/languages/go/file.md) |
+| Java | [languages/java](fractal-component-architecture/languages/java/file.md) |
+| JavaScript / TypeScript | [languages/javascript-typescript](fractal-component-architecture/languages/javascript-typescript/file.md) |
+| Python | [languages/python](fractal-component-architecture/languages/python/file.md) |
+| Ruby | [languages/ruby](fractal-component-architecture/languages/ruby/file.md) |
+| Rust | [languages/rust](fractal-component-architecture/languages/rust/file.md) |
 
 Each guide assumes you have read the main document first.
 
@@ -78,7 +78,7 @@ FCA costs more nesting, more folders, and more clicks to reach a given file. In 
 
 ## License
 
-Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](license/LICENSE). You may share and adapt the material, including commercially, as long as you give appropriate credit, for example:
+Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). You may share and adapt the material, including commercially, as long as you give appropriate credit, for example:
 
 > Fractal Component Architecture (FCA), by Augusto Viceli, CC BY 4.0
 

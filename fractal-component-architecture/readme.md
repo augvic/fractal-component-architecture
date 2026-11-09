@@ -373,19 +373,19 @@ A value that must never be attacker- or user-editable at runtime (an endpoint an
 
 # 16. 🌍 Materializing FCA by Language
 
-The vision above is the same regardless of language. What changes is which native construct plays each role — the closest thing to "a class," whether the module system already treats a folder as a namespace, and whether the language gives you a dedicated entry-point file at all. Each language gets its own file in [`languages/`](../languages/), so a project in one language never has to load the others' worked examples to find its own.
+The vision above is the same regardless of language. What changes is which native construct plays each role — the closest thing to "a class," whether the module system already treats a folder as a namespace, and whether the language gives you a dedicated entry-point file at all. Each language gets its own file in [`languages/`](languages/), so a project in one language never has to load the others' worked examples to find its own.
 
 | # | Language | File | What's distinctive |
 |---|---|---|---|
-| 16.1 | 🐍 Python | [languages/python.md](../languages/python/file.md) | `__init__.py` as the entry point every other language's own convention is modeled after here |
-| 16.2 | 🟨 JavaScript / TypeScript | [languages/javascript-typescript.md](../languages/javascript-typescript/file.md) | `index.ts`, the closest exact parallel to `__init__.py` in any mainstream language |
-| 16.3 | ☕ Java | [languages/java.md](../languages/java/file.md) | package-as-folder is compiler-enforced; no dedicated entry-point file needed |
-| 16.4 | 🟦 C# / .NET | [languages/csharp.md](../languages/csharp/file.md) | nearly identical to Java's mapping, with .NET's own idioms (`record`, nullable reference types) |
-| 16.5 | 🐹 Go | [languages/go.md](../languages/go/file.md) | any file in a folder is already part of that package — no aggregator file exists at all |
-| 16.6 | 🦀 Rust | [languages/rust.md](../languages/rust/file.md) | `mod.rs`, a literal direct parallel to `__init__.py` |
-| 16.7 | 🔷 C++ | [languages/cpp.md](../languages/cpp/file.md) | header/source pairs and an umbrella header standing in for a real entry-point file |
-| 16.8 | 🅲 C | [languages/c.md](../languages/c/file.md) | no package system at all — the tree survives on convention alone |
-| 16.9 | 💎 Ruby | [languages/ruby.md](../languages/ruby/file.md) | Zeitwerk autoloading derives the tree from the path automatically |
+| 16.1 | 🐍 Python | [languages/python.md](languages/python/file.md) | `__init__.py` as the entry point every other language's own convention is modeled after here |
+| 16.2 | 🟨 JavaScript / TypeScript | [languages/javascript-typescript.md](languages/javascript-typescript/file.md) | `index.ts`, the closest exact parallel to `__init__.py` in any mainstream language |
+| 16.3 | ☕ Java | [languages/java.md](languages/java/file.md) | package-as-folder is compiler-enforced; no dedicated entry-point file needed |
+| 16.4 | 🟦 C# / .NET | [languages/csharp.md](languages/csharp/file.md) | nearly identical to Java's mapping, with .NET's own idioms (`record`, nullable reference types) |
+| 16.5 | 🐹 Go | [languages/go.md](languages/go/file.md) | any file in a folder is already part of that package — no aggregator file exists at all |
+| 16.6 | 🦀 Rust | [languages/rust.md](languages/rust/file.md) | `mod.rs`, a literal direct parallel to `__init__.py` |
+| 16.7 | 🔷 C++ | [languages/cpp.md](languages/cpp/file.md) | header/source pairs and an umbrella header standing in for a real entry-point file |
+| 16.8 | 🅲 C | [languages/c.md](languages/c/file.md) | no package system at all — the tree survives on convention alone |
+| 16.9 | 💎 Ruby | [languages/ruby.md](languages/ruby/file.md) | Zeitwerk autoloading derives the tree from the path automatically |
 
 # 17. 🏁 Final Principles
 
